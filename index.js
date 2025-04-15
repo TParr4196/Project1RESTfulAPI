@@ -81,6 +81,11 @@ app.listen(port, () => {
     console.log(`Server listening on port ${port}`);
 });
 
+
+app.get("/", (req, res) => {
+    res.send("https://medium.com/@muhammadnaqeeb/dockerizing-a-node-js-and-express-js-app-9cb31cf9139e used for help dockerizing the app!");
+});
+
 //Businesses:
 
 function validateBusiness(req, res, next) {
